@@ -1,6 +1,5 @@
 # RapidASR
-A cpp implementation of wenet-onnx inspired by recognize-onnx.py in wenet in which it implements the infererence in ONNXRuntime.
-For a version of pure CPP code, we need to do a bit work to rewrite some compoments.
+A cpp implementation of wenet-onnx inspired by recognize-onnx.py in wenet in which it implements the infererence in ONNXRuntime. For a version of pure CPP code, we need to do a bit of work to rewrite some components.
 
 
 
