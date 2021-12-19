@@ -4,8 +4,8 @@ Special thanks to its original author SlyneD.
 
 
 
-I'm still working on transplanting the python version to CPP version. Please wait for a while.
+I'm still working on transplanting the version  from Python to CPP. Please wait for a while.
 
-The model is original from https://github.com/wenet-e2e/wenet/tree/main/examples/wenetspeech/s0
+The model is original from https://github.com/wenet-e2e/wenet/tree/main/examples/wenetspeech/s0 and tested with recognize-onnx.py.
 
 
