@@ -10,6 +10,9 @@ A cpp implementation of recognize-onnx.py in [Wenet-asr](https://github.com/wene
 
 I'm still working on transplanting the version  from Python to CPP. Please wait for a while.
 
+
+Progress:    %20  [Until 2021/12/24]
+
 The model is original from https://github.com/wenet-e2e/wenet/tree/main/examples/wenetspeech/s0 and tested with recognize-onnx.py.
 
 
