@@ -20,7 +20,7 @@ The model is original from https://github.com/wenet-e2e/wenet/tree/main/examples
 
 Donwload:
 ```
-
-![image](https://user-images.githubusercontent.com/15354249/147291822-90af463e-c9ff-4e5f-a381-748d1c3e15be.png)`
+URL：https://pan.baidu.com/s/1BTR-uR_8WWBFpvOisNR_PA 
+CODE：9xjz 
 
 ```
