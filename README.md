@@ -11,12 +11,13 @@ A cpp implementation of recognize-onnx.py in [Wenet-asr](https://github.com/wene
 I'm still working on transplanting the version  from Python to CPP. Please wait for a while.
 
 
-## Progress:    100%   [Until 2021/12/31]
+## Progress:    
 
 - [x] Linux
 - [x] Mac
 - [x] Android
 - [ ] Windows
+
 
 
 ## Models
@@ -36,3 +37,7 @@ CODE：9xjz
 The project is under the protection of GPL V2 and commercial license.
 
 For a commercial license, please contact us: znsoft@163.com
+
+## commercial license
+
+for a commercial user, we offer a library for resample input data formats including mp3, mp4, mkv  and so on.
