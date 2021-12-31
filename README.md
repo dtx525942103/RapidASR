@@ -24,3 +24,8 @@ URL：https://pan.baidu.com/s/1BTR-uR_8WWBFpvOisNR_PA
 CODE：9xjz 
 
 ```
+
+
+## Notice:
+
+The project is under the protection of GPL V2 and commercial license.
