@@ -8,7 +8,7 @@ if(WIN32)
 add_definitions(-D_RAPIDASR_API_EXPORT)
 else()
 
-SET(SDK_ROOT  /opt/qmcds)
+SET(SDK_ROOT  ${CMAKE_CURRENT_SOURCE_DIR}/sdk/linux)
 include_directories(${SDK_ROOT}/include/  ${SDK_ROOT}/include/kenlm   ${SDK_ROOT}/include/ctc_decoder  ${SDK_ROOT}/include/kaldi)
 message(UNIX)
 
