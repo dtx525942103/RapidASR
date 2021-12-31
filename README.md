@@ -40,6 +40,6 @@ For a commercial license, please contact us: znsoft@163.com
 
 ## Commercial license
 
-For a commercial user, we offer a library for resample input data including mp3, mp4, mkv  and so on.
+For a commercial user, we offer a library to resample input data including mp3, mp4, mkv  and so on.
 
 Please visit: https://github.com/RapidAI/RapidAudioKit
