@@ -13,6 +13,11 @@ I'm still working on transplanting the version  from Python to CPP. Please wait 
 
 ## Progress:    100%   [Until 2021/12/31]
 
+- [x] Linux
+- [x] Mac
+- [x] Android
+- [ ] Windows
+
 
 ## Models
 
