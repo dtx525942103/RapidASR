@@ -10,9 +10,9 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/win-dep/include)
 
 link_directories(${CMAKE_CURRENT_SOURCE_DIR}/win-dep/lib/x64)
 else()
-include_directories(/opt/qmcds/include /opt/qmcds/include/kenlm)
+include_directories(${SDK_ROOT}include ${SDK_ROOT}include/kenlm)
 
-link_directories(/opt/qmcds/lib)
+link_directories(${SDK_ROOT}lib)
 
 
 endif()

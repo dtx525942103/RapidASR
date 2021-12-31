@@ -23,10 +23,10 @@ using namespace std;
 #include "onnxruntime/onnxruntime_cxx_api.h"
 
 // user defined headers
-#include "qmdatadef.h"
+#include "rpdatadef.h"
 
 #include "commfunc.h"
-#include "libqmasrapi.h"
-#include "qmasr.h"
+#include "librpasrapi.h"
+#include "rapidasr.h"
 
 

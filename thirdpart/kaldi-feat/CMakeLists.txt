@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.19)
 project(kaldi-feat)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/CLAPACK /opt/qmcds/include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/CLAPACK ${SDK_ROOT}include)
 add_compile_options(-fPIC)
 add_definitions(-DHAVE_OPENBLAS)
 aux_source_directory(base SRC_BASE)
