@@ -1,6 +1,5 @@
 Other dependent libraries:
 ```
-eigen3
 liblzma
 libbz2
 ```
@@ -15,6 +14,6 @@ Just install these package on your system.
 example for ubuntu:
 ```
 
-apt install libeigen3-dev  liblzma-dev libbz2-dev -y
+apt install  liblzma-dev libbz2-dev -y
 
 ```
