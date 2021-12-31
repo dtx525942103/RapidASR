@@ -7,4 +7,4 @@ GPL v2: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Commercial license:  znsoft@163.com
 
 
-Copyrights all rights reserved 2021-?  RapidAI organization.
+(C) Copyright all rights reserved 2021-?  RapidAI organization.
