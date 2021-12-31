@@ -40,4 +40,4 @@ For a commercial license, please contact us: znsoft@163.com
 
 ## commercial license
 
-for a commercial user, we offer a library for resample input data formats including mp3, mp4, mkv  and so on.
+for a commercial user, we offer a library for resample input data including mp3, mp4, mkv  and so on.
