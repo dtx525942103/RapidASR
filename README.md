@@ -38,7 +38,7 @@ The project is under the protection of GPL V2 and commercial license.
 
 For a commercial license, please contact us: znsoft@163.com
 
-## Commercial license
+## Commercial support
 
 For a commercial user, we offer a library to resample input data including mp3, mp4, mkv  and so on.
 
