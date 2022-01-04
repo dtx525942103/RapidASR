@@ -30,16 +30,15 @@ URL：https://pan.baidu.com/s/1BTR-uR_8WWBFpvOisNR_PA
 CODE：9xjz 
 
 ```
-
-### Sample Rate:
+- Sample Rate:
 
 16000Hz
 
-### sample Depth:
+- sample Depth:
 
 16bits
 
-### channel:
+- channel:
 
 single
 
