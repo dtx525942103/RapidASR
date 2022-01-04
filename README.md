@@ -34,8 +34,10 @@ CODE：9xjz
 
 ## Build
 
-
- TBD 
+- Linux 
+ TBD
+- Windows
+ TBD
 
 ## Notice:
 
