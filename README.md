@@ -31,6 +31,17 @@ CODE：9xjz
 
 ```
 
+### Sample Rate:
+
+16000Hz
+
+### sample Depth:
+
+16bits
+
+### channel:
+
+single
 
 ## Build
 
