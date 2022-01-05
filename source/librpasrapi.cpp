@@ -6,7 +6,7 @@ extern "C" {
 #endif
 
 
-	// APIs for qmasr
+	// APIs for rapidasr
 
 
 	_RAPIDASRAPI RAPIDASR_HANDLE RpASR_init(const char* szModelDir,int nThread)
