@@ -11,6 +11,12 @@ A cpp implementation of recognize-onnx.py in [Wenet-asr](https://github.com/wene
 
 # It works for the most modes, but still needs some  tricks to build it on Linux.
 
+## support models:
+
+- CTC_GREEDY_SEARCH
+- CTC_RPEFIX_BEAM_SEARCH
+- ATTENSION_RESCORING 
+
 ## Progress:    
 
 - [x] Linux
