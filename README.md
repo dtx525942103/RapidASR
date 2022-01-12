@@ -9,7 +9,7 @@ A cpp implementation of recognize-onnx.py in [Wenet-asr](https://github.com/wene
 ## Less is more. Less dependency, more usability.
 
 
-
+# It works for the most modes, but it needs some  tricks to compile it on Linux.
 
 ## Progress:    
 
