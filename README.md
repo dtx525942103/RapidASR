@@ -11,6 +11,8 @@ A cpp implementation of recognize-onnx.py in [Wenet-asr](https://github.com/wene
 
 # It works for the most modes, but still needs some  tricks to build it on Linux.
 
+Just offline mode, not support stream model, aka support  separate files.
+
 ## Support models:
 
 - CTC_GREEDY_SEARCH
