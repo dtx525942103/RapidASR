@@ -32,7 +32,7 @@ Just offline mode, not support stream model, aka support  separate files.
 
 The model is original from https://github.com/wenet-e2e/wenet/tree/main/examples/wenetspeech/s0 and tested with recognize-onnx.py.
 
-Donwload:
+Download:
 ```
 URL：https://pan.baidu.com/s/1BTR-uR_8WWBFpvOisNR_PA 
 CODE：9xjz 
