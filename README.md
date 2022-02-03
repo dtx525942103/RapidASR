@@ -56,9 +56,10 @@ single
 
  TBD
 - Windows
+ ```
 Visual studio 2019 & cmake 3.20
 
- ```
+
 
  cd thirdpart
  build_win.cmd x86|x64
