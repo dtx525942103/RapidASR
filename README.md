@@ -13,7 +13,7 @@ A cpp implementation of recognize-onnx.py in [Wenet-asr](https://github.com/wene
 
 Just offline mode, not support stream mode, aka separate files can be recognized.
 
-## Supported models:
+## Supported modes:
 
 - CTC_GREEDY_SEARCH
 - CTC_RPEFIX_BEAM_SEARCH
