@@ -9,8 +9,6 @@ A cpp implementation of recognize-onnx.py in [Wenet-asr](https://github.com/wene
 ## Less is more. Less dependency, more usability.
 
 
-# It works for the most modes, but still needs some  tricks to build it on Linux.
-
 Just offline mode, not support stream mode, aka separate files can be recognized.
 
 ## Supported modes:
