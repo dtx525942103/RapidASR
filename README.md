@@ -17,12 +17,14 @@ Just offline mode, not support stream mode, aka separate files can be recognized
 - CTC_RPEFIX_BEAM_SEARCH
 - ATTENSION_RESCORING 
 
-## Progress:    
+## Progress:
 
+- [X] Python
 - [x] Linux
 - [x] Mac
 - [x] Android
 - [ ] Windows
+
 
 
 
