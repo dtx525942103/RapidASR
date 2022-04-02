@@ -32,6 +32,8 @@ Just offline mode, not support stream mode, aka separate files can be recognized
 
 The model is original from https://github.com/wenet-e2e/wenet/tree/main/examples/wenetspeech/s0 and tested with recognize-onnx.py.
 
+Bidirectional model: http://mobvoi-speech-public.ufile.ucloud.cn/public/wenet/wenetspeech/20211025_conformer_bidecoder_exp.tar.gz
+
 Download:
 ```
 URL：https://pan.baidu.com/s/1BTR-uR_8WWBFpvOisNR_PA 
