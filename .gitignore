@@ -1,3 +1,7 @@
 *.onnx
 
 *.pyc
+
+__pycache__/
+
+python/base_paddlespeech/resources/
