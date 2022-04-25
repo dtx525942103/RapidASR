@@ -70,7 +70,11 @@ Visual studio 2019 & cmake 3.20
 
 ## Notice:
 
-The project is under the protection of GPL V2 and commercial license.
+The project is under the protection of GPL V2, Apache license and commercial license.
+
+For so/dll/c++ interface, it comply with GPL V2.
+
+For python interface, it belongs to Apache license.
 
 For a commercial license, please contact us: znsoft@163.com
 
