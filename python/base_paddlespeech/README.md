@@ -1,4 +1,4 @@
-#### 基于Wenet训练所得模型的推理代码
+#### 基于PaddeSpeech训练所得模型的推理代码
 - 项目来源：[PaddleSpeech/s2t](https://github.com/PaddlePaddle/PaddleSpeech/tree/develop/examples/aishell/asr0)
 - 运行环境：Linux| Python 3.7 | CPU | 不依赖Paddle
 
