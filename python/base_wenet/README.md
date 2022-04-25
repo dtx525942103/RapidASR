@@ -1,7 +1,6 @@
 #### 基于Wenet训练所得模型的推理代码
-- 不依赖torch和torchaudio
-- 目前仅测试过CPU端
-- 仅支持Linux，python3.7
+- 项目来源：[wenet/aishell/s0](https://github.com/wenet-e2e/wenet/blob/main/examples/aishell/s0/README.md)
+- 运行环境：Linux| Python 3.7 | CPU | 不依赖torch和torchaudio
 
 #### 使用方法
 1. 下载整个python目录
@@ -52,3 +51,21 @@
    ```text
     test_data/test.wav      甚至出现交易几乎停滞的情况      0.8272988796234131s
    ```
+
+#### 模型转onnx代码
+```bash
+# python3.7 torch1.10
+root_dir="examples/mix_data/exp/conformer/2022-04-07-05-37-18"
+config_path="${root_dir}/train.yaml"
+cmvn_file="${root_dir}/global_cmvn"
+checkpoint_path="${root_dir}/4.pt"
+dir_name=${checkpoint_path##*/}
+dir_name=${dir_name%.*}
+out_onnx_dir="export_onnx/mix_data/${dir_name}"
+
+python wenet/bin/export_onnx.py --config ${config_path} \
+                      --checkpoint ${checkpoint_path} \
+                      --cmvn_file ${cmvn_file} \
+                      --output_onnx_dir ${out_onnx_dir}
+
+```

@@ -12,11 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 from io import BytesIO
-from typing import List
 from pathlib import Path
+from typing import List
 
 import numpy as np
-
 
 __all__ = ["pad_list", "pad_sequence", "feat_type"]
 
@@ -90,7 +89,6 @@ def feat_type(filepath):
     # deal with Byteio type for paddlespeech server
     if isinstance(filepath, BytesIO):
         return 'sound'
-    import pdb;pdb.set_trace()
 
     suffix = Path(filepath).suffix[1:]
     if suffix == 'ark':

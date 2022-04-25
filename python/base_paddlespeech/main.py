@@ -7,7 +7,7 @@ from deepspeech2 import ASRExecutor
 
 config_path = 'resources/model.yaml'
 model_path = 'resources/models/asr0_deepspeech2_online_aishell_ckpt_0.2.0.onnx'
-lan_model_path = 'resources/models/language_model/lm/zh_giga.no_cna_cmn.prune01244.klm'
+lan_model_path = 'resources/models/language_model/zh_giga.no_cna_cmn.prune01244.klm'
 wav_path = 'test_wav/zh.wav'
 
 asr_executor = ASRExecutor(sample_rate=16000,
