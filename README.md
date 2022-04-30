@@ -18,7 +18,7 @@
 - ATTENSION_RESCORING 
 
 ## Progress:
-- [X] Python
+- [X] [Python](./python)
 - [x] Linux
 - [x] Mac
 - [x] Android
@@ -49,7 +49,7 @@ Visual studio 2019 & cmake 3.20
  cd thirdpart
  build_win.cmd x86|x64
  ```
- 
+
   TBD
 - Windows
 
