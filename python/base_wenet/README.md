@@ -9,7 +9,6 @@
    Release:        7.9.2009
    Codename:       Core
    ```
-
 #### 使用方法
 1. 下载整个`python/base_wenet`目录
 
