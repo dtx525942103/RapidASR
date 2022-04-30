@@ -3,7 +3,7 @@
 - 运行环境：Linux| Python 3.7 | CPU | 不依赖torch和torchaudio
 
 #### 使用方法
-1. 下载整个python目录
+1. 下载整个`python/base_wenet`目录
 
 2. 安装依赖环境
    - 批量安装
