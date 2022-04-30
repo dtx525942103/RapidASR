@@ -1,6 +1,14 @@
 #### 基于Wenet训练所得模型的推理代码
 - 项目来源：[wenet/aishell/s0](https://github.com/wenet-e2e/wenet/blob/main/examples/aishell/s0/README.md)
-- 运行环境：Linux| Python 3.7 | CPU | 不依赖torch和torchaudio
+- 运行环境：Python 3.7 | CPU | 不依赖torch和torchaudio
+   ```text
+   # 编译系统信息
+   LSB Version:    :core-4.1-amd64:core-4.1-noarch
+   Distributor ID: CentOS
+   Description:    CentOS Linux release 7.9.2009 (Core)
+   Release:        7.9.2009
+   Codename:       Core
+   ```
 
 #### 使用方法
 1. 下载整个`python/base_wenet`目录
