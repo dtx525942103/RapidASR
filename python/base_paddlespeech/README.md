@@ -9,6 +9,9 @@
    - 批量安装
     ```bash
     pip install -r requirements.txt -i https://pypi.douban.com/simple/
+    
+    # CentOS
+    sudo yum install libsndfile 
     ```
 3. 下载`resources`模型相关文件到`base_paddlespeech`下,
     - 下载`resources`链接：[Google Drive](https://drive.google.com/file/d/1MWmKxsfCNQyQ5CPlaYxJKnYfIIC5OO5L/view?usp=sharing)
