@@ -36,7 +36,7 @@ import numpy as np
 import onnxruntime as rt
 import yaml
 
-from .swig_decoders import (PathTrie, TrieVector,
+from swig_decoders import (PathTrie, TrieVector,
                             ctc_beam_search_decoder_batch, map_batch)
 from .utils import (compute_fbank, filter_wav, load_dict, padding, parse_raw,
                     read_symbol_table, resample, tokenize)

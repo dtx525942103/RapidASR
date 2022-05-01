@@ -1,23 +1,23 @@
 #### 基于Wenet训练所得模型的推理代码
 - 项目来源：[wenet/aishell/s0](https://github.com/wenet-e2e/wenet/blob/main/examples/aishell/s0/README.md)
 - 运行环境：Python 3.7 | CPU | 不依赖torch和torchaudio
-   ```text
-   # 编译系统信息
-   LSB Version:    :core-4.1-amd64:core-4.1-noarch
-   Distributor ID: CentOS
-   Description:    CentOS Linux release 7.9.2009 (Core)
-   Release:        7.9.2009
-   Codename:       Core
-   ```
+
 #### 使用方法
 1. 下载整个`python/base_wenet`目录
 
 2. 安装依赖环境
-   - 批量安装
-    ```bash
-    pip install -r requirements.txt -i https://pypi.douban.com/simple/
-    ```
-    - 因为`_swig_decoders.cpython-37m-x86_64-linux-gnu.so`依赖包比较大，也放在了谷歌网盘下，请移步这里[下载](https://drive.google.com/file/d/1mt4WinNb_OfXOgz8XoA0URxsQ1JSurKm/view?usp=sharing)。下载之后放在`python/wenet/swig_decoders`下
+   - 安装依赖包
+        ```bash
+        pip install -r requirements.txt -i https://pypi.douban.com/simple/
+        ```
+    - 编译安装[`ctc_decoders`](https://github.com/Slyne/ctc_decoder)
+        ```bash
+        git clone https://github.com/Slyne/ctc_decoder.git
+        apt-get update
+        apt-get install swig
+        apt-get install python3-dev
+        cd ctc_decoder/swig && bash setup.sh
+        ```
 
 3. 下载预训练onnx模型到`pretrain_model\20211025_conformer_exp`下,
     - 下载链接：[Google Drive](https://drive.google.com/drive/folders/1Jv9pi44McsGfpFrK9R8zm9ZJuVzlP-uL?usp=sharing)
@@ -43,11 +43,6 @@
             │   ├── ivector.py
             │   ├── LICENSE
             │   └── README.md
-            ├── swig_decoders
-            │   ├── __init__.py
-            │   ├── _swig_decoders.cpython-37m-x86_64-linux-gnu.so
-            │   ├── _swig_decoders.py
-            │   └── swig_decoders.py
             ├── utils.py
             └── wenet_infer.py
         ```
