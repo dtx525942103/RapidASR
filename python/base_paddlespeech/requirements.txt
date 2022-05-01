@@ -6,6 +6,6 @@ numpy
 kaldiio
 jsonlines
 SoundFile
-# paddlespeech_ctcdecoders==0.2.0
+paddlespeech_ctcdecoders==0.2.0
 sentencepiece
 resampy
