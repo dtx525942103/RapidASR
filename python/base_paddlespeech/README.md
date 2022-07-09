@@ -44,7 +44,7 @@
         ```
 
 
-4. 运行`python test_demo.py`
+4. 运行`python main.py`
 5. 运行结果如下：
    ```text
     checking the audio file format......
