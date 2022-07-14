@@ -55,6 +55,8 @@
    ```
 
 #### 模型转onnx代码
+- 原始的Wenet模型下载路径：[20211025_conformer_exp](https://wenet-1256283475.cos.ap-shanghai.myqcloud.com/models/aishell/20211025_conformer_exp.tar.gz)
+- 训练该模型使用的配置为：[train_conformer.yaml](https://github.com/wenet-e2e/wenet/blob/a92952827c/examples/aishell/s0/conf/train_conformer.yaml)
 ```bash
 # python3.7 torch1.10
 root_dir="examples/mix_data/exp/conformer/2022-04-07-05-37-18"
