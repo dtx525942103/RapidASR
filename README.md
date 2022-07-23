@@ -42,7 +42,7 @@ Channel: single
 
 ## Build
 
-- Linux 
+- Windows
  ```
 Visual studio 2019 & cmake 3.20
 
@@ -50,8 +50,11 @@ Visual studio 2019 & cmake 3.20
  build_win.cmd x86|x64
  ```
 
-  TBD
-- Windows
+  
+- Linux
+ ```
+ cmake 
+ ```
 
 ## Notice:
 The project is under the protection of GPL V2, Apache license and commercial license.
