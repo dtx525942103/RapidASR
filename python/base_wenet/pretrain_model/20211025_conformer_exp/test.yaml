@@ -13,3 +13,4 @@ dataset_conf:
     min_output_input_ratio: 0
   resample_conf:
     resample_rate: 16000
+  reverse_weight: 0.0

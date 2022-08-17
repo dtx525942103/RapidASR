@@ -217,6 +217,12 @@ class WenetInfer(object):
                 self.decoder_ort_session.get_inputs()[-1].name: ctc_score
             }
 
+            reverse_weight = self.conf.get('reverse_weight', 0.0)
+            if reverse_weight > 0:
+                r_hyps_pad_sos_eos_name = self.decoder_ort_session.get_inputs()[
+                    4].name
+                decoder_ort_inputs[r_hyps_pad_sos_eos_name] = r_hyps_pad_sos_eos
+
             best_index = self.decoder_ort_session.run(
                 None, decoder_ort_inputs)[0]
             best_sents = []
