@@ -11,6 +11,7 @@
 - Less is more. Less dependency, more usability.
 
 - Just offline mode, not support stream mode, aka separate files can be recognized.
+- **QQ Group: 645751008**
 
 ## Supported modes:
 - CTC_GREEDY_SEARCH
